@@ -4,8 +4,11 @@ installer symfony
 
 cd <projet>
 dans .env modifier : DATABASE_URL=pgsql://<user>:<password>@127.0.0.1:5432/Permaculure 
+
 composer install
+  
   Créer la bdd sur phpMyAdmin
+
 php bin/console doctrine:database:create
   
   Lancer le server:
